@@ -100,3 +100,52 @@ body{
   background: linear-gradient(to bottom right, #f3eeed, #f08080);
   border-radius: 10px;
 }
+
+.gallery{
+    height: 600px; 
+    background-image: url(../images/Rectangle\ 2.png); background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center bottom;
+  background-size: contain;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.image-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);  
+  gap: 20px;
+  width: 100%;
+  max-width: 100%;
+  margin: auto;
+  margin-bottom: 100px;
+
+}
+
+.grid-item img {
+  width: 100%;      /* Make images responsive */
+  height: auto;
+  display: block;
+  border-radius: 8px; /* Optional: rounded corners */
+  object-fit: cover;  /* Maintain aspect ratio, crop if needed */
+}
+.newsletter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 100px;
+  background-color: #f3dddd;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+
+.end{
+  height: 200px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 30px;
+}
