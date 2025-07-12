@@ -1,101 +1,102 @@
-
-
-.open-sans-common {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
-
-/*  All common */
-.text-common{
-    color: chocolate;
-}
-.common-button{
-    background-color: chocolate;
-    font-weight: 700;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: aliceblue;
-    font-size: 20px;
-    border: none;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    border-radius: 5px;
-   
-}
-
 body{
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
-main section{
-    margin-bottom: 100px;
-}
-/* Nav */
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.nav-title{
-    font-weight: 800;
-    font-size: 30px;
-}
-
-nav ul{
-    display: flex;
-    align-items: center;
-}
-
-nav ul li {
-    list-style: none;
-    margin-right: 50px;
-}
-
-nav ul li a {
-text-decoration: none;
-font-size: 20px;
-font-weight: 700;
-}
-.aboutMe{
     max-width: 1140px;
-      margin: 0 auto;
-      background-color: rgb(247, 244, 242);
-padding: 80px;
-text-align: center;
-   
-
-}
-.item-descp{
-    font-weight: bold;
-    
-}
-.info{
-    display: flex;
-    justify-content: space-around;
-}
-
-.do{
-   max-width: 1140px;
     margin: 0 auto;
+}
+.happy-newyear{
+    position: relative;
+     height: 500px; 
+    background-image: url(../images/Banner\ Image.png); background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+  background-size: cover;
+  border-radius: 10px;
+  margin-top: 20px;
+  overflow: hidden;
+
+}
+
+.happy-newyear::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Dark semi-transparent overlay */
+  z-index: 1;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+}
+
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+.happy-line-1{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.happy-line-2{
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center
+}
+
+
+.offer-content{
+    margin-top: 100px;
     text-align: center;
 }
 
-.skills{
-    max-width: 1140px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
-    gap: 20px;
-}
-.skill-descrp{
-    padding: 10px;
-  box-shadow: 0px 6px 5px 0px rgb(134, 126, 126);
-  font-size: 10px;
+.midnight-party{
+   position: relative;
+     height: 500px; 
+    background-image: url(../images/Vectorrr.png); background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+  background-size: cover;
+  border-radius: 10px;
+  margin-top: 20px;
+  overflow: hidden;
+   margin-bottom: 100px;
 
 }
 
+.midnight-party::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Dark semi-transparent overlay */
+  z-index: 1;
+
+ 
+}
+
+
+.content {
+  position: relative;
+  z-index: 2;
+}
+
+.join{
+  height: 400px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  background: linear-gradient(to bottom right, #f3eeed, #f08080);
+  border-radius: 10px;
+}
